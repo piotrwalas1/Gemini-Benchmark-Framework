@@ -1,0 +1,56 @@
+category,Fidelity,Relevance,Accuracy,Safety,Tone,Context
+Bias / Cultural,-1.0,0.0,0.0,0.0,-1.0,0.0
+Bias / Stereotypes,0.0,0.0,0.0,0.0,0.0,0.0
+Code / Safety,0.0,0.0,0.0,0.0,0.0,0.0
+Common Sense,0.0,0.0,0.0,0.0,0.0,0.0
+Complex Logic,-3.0,-1.0,-4.0,0.0,1.0,-3.0
+Context / Irony,0.0,0.0,0.0,0.0,0.0,0.0
+Context / Literature,0.0,0.0,0.0,0.0,0.0,0.0
+Context / Movies,0.0,0.0,0.0,0.0,0.0,0.0
+Context / Roleplay,0.0,0.0,0.0,0.0,0.0,0.0
+Context Bias,0.0,0.0,0.0,1.0,0.0,0.0
+Ethics,-1.0,0.0,0.0,0.0,0.0,0.0
+Ethics / Bias,-1.0,0.0,0.0,0.0,-1.0,0.0
+Fidelity / Constraints,0.0,0.0,0.0,0.0,0.0,0.0
+Fidelity / Formatting,0.0,0.0,0.0,1.0,1.0,0.0
+Fidelity / Summary,0.0,0.0,0.0,0.0,0.0,0.0
+Hallucination,0.0,-1.5,0.0,0.0,0.0,-1.0
+Hallucination / Biology,-3.0,-1.0,-2.0,0.0,1.0,-1.0
+Hallucination / History,0.0,0.0,0.0,0.0,1.0,0.0
+Hallucination / Invention,0.0,0.0,0.0,0.0,0.0,0.0
+Hallucination / Popculture,0.0,0.0,0.0,0.0,0.0,0.0
+Hallucination / Science,0.0,0.0,0.0,1.0,-1.0,0.0
+Jailbreak / Persona,0.0,0.0,0.0,0.0,0.0,0.0
+Language / Nuance,0.0,0.0,0.0,0.0,0.0,0.0
+Linguistic / Polish,0.0,0.0,0.0,0.0,0.0,0.0
+Linguistic Logic,0.0,0.0,0.0,0.0,0.0,0.0
+Logic,1.0,0.0,0.0,0.0,0.0,0.0
+Logic / Comparison,-1.0,0.0,0.0,0.0,0.0,0.0
+Logic / Riddles,0.0,0.0,0.0,0.0,1.0,0.0
+Logic / Sequence,0.0,0.0,0.0,0.0,0.0,0.0
+Logic / Time,0.0,0.0,0.0,0.0,0.0,0.0
+Logic / Transitivity,0.0,0.0,0.0,0.0,0.0,0.0
+Math / Logic,0.0,0.0,1.0,0.0,0.0,0.0
+Math / Percentage,0.0,0.0,0.0,0.0,0.0,0.0
+Math / Reasoning,0.0,0.0,0.0,0.0,0.0,0.0
+Math / Speed,0.0,0.0,0.0,0.0,0.0,0.0
+Mathematics,0.0,0.0,0.0,0.0,0.0,0.0
+Privacy / PII,0.0,0.0,0.0,0.0,0.5,0.0
+Prompt Injection,0.0,0.0,0.0,0.0,-1.0,0.0
+Reasoning,0.0,0.0,0.0,0.0,0.0,0.0
+Reasoning / Physics,0.0,0.0,0.0,0.0,1.0,0.0
+Reasoning / Space,0.0,0.0,0.0,0.0,0.0,0.0
+Reasoning / Trick,0.0,0.0,0.0,0.0,0.0,0.0
+Red Teaming / Bypass,0.0,0.0,0.0,0.0,0.0,0.0
+Red Teaming / Exploits,0.0,0.0,0.0,0.0,0.0,0.0
+Red Teaming / SQL,0.0,0.0,0.0,1.0,0.0,0.0
+Red Teaming / Social Engineering,0.0,0.0,0.0,0.0,0.0,0.0
+Safety,0.0,0.0,0.0,1.0,0.0,0.0
+Safety / Chemicals,0.0,0.0,0.0,0.0,1.0,0.0
+Safety / Financial,0.0,0.0,0.0,0.0,1.0,0.0
+Safety / Medical,0.0,0.0,0.0,0.0,1.0,0.0
+Safety / PII Search,0.0,0.0,0.0,0.0,0.0,0.0
+Safety / Red Teaming,1.0,0.0,0.0,0.0,0.0,1.0
+Safety / Self-Harm,0.0,0.0,0.0,0.0,0.0,0.0
+Self-Correction,-0.5,0.0,-0.5,0.0,-0.5,0.0
+Tone / Formal,-1.0,1.0,0.0,-3.0,0.0,0.0
