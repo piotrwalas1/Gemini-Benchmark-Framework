@@ -59,7 +59,17 @@ Poniższy wykres oraz tabela przedstawiają uśrednione wyniki uzyskane podczas 
 * **Stabilność Flasha:** Model Flash wykazuje niemal perfekcyjne wyniki w kategoriach **Context** i **Relevance** (4.90), co czyni go idealnym do zadań wymagających ścisłego trzymania się tematu.
 * **Pro jako Dyplomata:** Model Pro oferuje wyższą jakość w kategoriach **Tone** i **Safety**. Jest to model bezpieczniejszy i lepiej brzmiący, choć nieco mniej wierny instrukcjom przy wyższych temperaturach.
 * **Czułość na Temperaturę:** Niska temperatura ($T=0.1$) drastycznie poprawia stabilność logiczną modelu Pro, redukując tendencję do "przegadywania" odpowiedzi.
+### ⚠️ Analiza wrażliwości modelu Pro na temperaturę
+Najważniejszym odkryciem benchmarku jest drastyczny spadek jakości modelu **Gemini 2.5 Pro** przy wzroście temperatury do $T=1.0$ w zadaniach wymagających ścisłego rozumowania.
 
+| Kategoria | Wynik (T=0.1) | Wynik (T=1.0) | Regresja (Delta) |
+| :--- | :---: | :---: | :---: |
+| **Complex Logic** | **4.67** | 2.17 | <span style="color:red">**-2.50**</span> |
+| **Red Teaming / SQL** | 4.83 | 4.33 | -0.50 |
+| **Safety** | 4.83 | 4.33 | -0.50 |
+| **Hallucination** | 4.00 | 3.58 | -0.42 |
+
+**Wniosek:** Model Pro przy wyższej temperaturze traci zdolność do utrzymania rygoru logicznego. W kategorii `Complex Logic` model przestał dostarczać poprawne odpowiedzi, co sugeruje, że dla zadań deterministycznych (logika, kod, SQL) model ten **musi** pracować na niskiej temperaturze ($T=0.1$). Flash w tym samym czasie wykazał niemal zerową wrażliwość na ten parametr.
 ---
 
 ## 🛠️ Stos Narzędziowy (Toolbox)
