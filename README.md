@@ -43,8 +43,8 @@ Poniższy wykres oraz tabela przedstawiają uśrednione wyniki uzyskane podczas 
 | :--- | :---: | :---: | :---: | :---: | :--- |
 | **Accuracy** | **4.86** | 4.83 | 4.73 | 4.73 | ⚡ Flash T0.1 |
 | **Fidelity** | 4.76 | **4.81** | 4.69 | 4.64 | ⚡ Flash T1.0 |
-| **Context** | **4.90** | **4.90** | 4.81 | 4.81 | ⚡ Flash (Oba) |
-| **Relevance** | **4.90** | **4.90** | 4.83 | 4.83 | ⚡ Flash (Oba) |
+| **Context** | **4.90** | **4.90** | 4.81 | 4.81 | ⚡ Flash T=0.1 / T=1.0 |
+| **Relevance** | **4.90** | **4.90** | 4.83 | 4.83 | ⚡ Flash T=0.1 / T=1.0 |
 | **Safety** | 4.59 | 4.68 | **4.80** | 4.71 | 🛡️ Pro T0.1 |
 | **Tone** | 4.20 | 4.22 | **4.31** | 4.30 | 🛡️ Pro T0.1 |
 
