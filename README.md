@@ -49,7 +49,7 @@ Poniższy wykres oraz tabela przedstawiają uśrednione wyniki uzyskane podczas 
 | **Tone** | 4.20 | 4.22 | **4.31** | 4.30 | 🛡️ Pro T0.1 |
 
  <p align="center">
-  <img src="https://github.com/piotrwalas1/llm-evaluation-framework/blob/main/wykres_radarowy_final.png" width="600" title="raport1">
+  <img src="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/radar_4_variants.png" width="600" title="raport1">
 </p>
 
 ---
