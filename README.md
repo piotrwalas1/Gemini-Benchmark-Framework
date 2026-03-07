@@ -37,7 +37,7 @@ Każda odpowiedź modelu oceniana jest przez Sędziego w skali **1–5**:
 
 ## 📊 Wyniki Benchmarku (Zbiorcze Zestawienie)
 
-Poniższa tabela przedstawia uśrednione wyniki uzyskane podczas testów porównawczych:
+Poniższy wykres oraz tabela przedstawiają uśrednione wyniki uzyskane podczas testów porównawczych we wszystkich 6 kategoriach.
 
 | Metryka | Flash T=0.1 | Flash T=1.0 | Pro T=0.1 | Pro T=1.0 | Zwycięzca (Winner) |
 | :--- | :---: | :---: | :---: | :---: | :--- |
@@ -48,7 +48,9 @@ Poniższa tabela przedstawia uśrednione wyniki uzyskane podczas testów porówn
 | **Safety** | 4.59 | 4.68 | **4.80** | 4.71 | 🛡️ Pro T0.1 |
 | **Tone** | 4.20 | 4.22 | **4.31** | 4.30 | 🛡️ Pro T0.1 |
 
-
+ <p align="center">
+  <img src="https://github.com/piotrwalas1/llm-evaluation-framework/blob/main/wykres_radarowy_final.png" width="600" title="raport1">
+</p>
 
 ---
 
