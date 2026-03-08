@@ -1,4 +1,4 @@
-# 🚀 Gemini Benchmark Framework: Flash vs Pro (Efficiency & Quality Analysis)
+# 🚀 Gemini Benchmark Framework: Flash vs Pro (Efficiency & Quality Analysis) Proof of Concept
 
 ## 📋 O Projekcie
 
