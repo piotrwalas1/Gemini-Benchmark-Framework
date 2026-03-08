@@ -46,7 +46,7 @@ Poniższa tabela przedstawia uśrednione wyniki jakościowe oraz kluczowe metryk
 
 * **Dominacja Efektywności Flasha:** Gemini 2.0 Flash osiąga wyniki jakościowe na poziomie modelu Pro (różnice rzędu 1%), będąc przy tym **~23 razy tańszym** i **~6 razy szybszym**. Jest to bezdyskusyjny lider dla systemów real-time.
 * **Pro jako Dyplomata:** Model Pro oferuje wyższą jakość w kategoriach *Tone* i *Safety* przy niskiej temperaturze, jednak traci te przewagi przy wzroście kreatywności.
-* **Stabilność Operacyjna:** Flash wykazuje niemal zerową wrażliwość kosztową i czasową na zmianę temperatury, podczas gdy Pro staje się bardziej "ośpieszny" i kosztowny przy $T=1.0$.
+* **Stabilność Operacyjna:** Flash wykazuje niemal zerową wrażliwość kosztową i czasową na zmianę temperatury, podczas gdy Pro staje się bardziej kosztowny przy $T=1.0$.
 
 ## ⚠️ Analiza Wrażliwości i Regresji (Crucial Discovery)
 
