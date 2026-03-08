@@ -67,6 +67,18 @@ W repozytorium znajdują się kluczowe skrypty automatyzujące proces:
 * **`generate_visualizations.py`**: Master Visualizer. Tworzy zbiorcze grafiki (Radar + Bar Chart) prezentujące profil kompetencji i wydajność.
 * **`final_mega_benchmark.py`**: Agregator danych. Generuje finalną tabelę wydajnościową (Score/Latency/Cost) do dokumentacji.
 
+  ## 📂 Raporty i Dane Wyjściowe (Artifacts)
+
+Wyniki analiz są generowane automatycznie i dostępne bezpośrednio w głównym katalogu repozytorium:
+
+*  <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/results-models-gemini-2.0-flash-0.1-0308-1241.json">gemini-2.0-flash-0.1 zawierające logi odpowiedzi, metadane tokenów oraz szczegółowe oceny sędziego</a></li>
+* <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/results-models-gemini-2.0-flash-1.0-0308-1225.json">gemini-2.0-flash-1.0 zawierające logi odpowiedzi, metadane tokenów oraz szczegółowe oceny sędziego</a></li>
+* <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/results-models-gemini-2.5-pro-0.1-0308-1310.json">gemini-2.5-pro-0.1 zawierające logi odpowiedzi, metadane tokenów oraz szczegółowe oceny sędziego</a></li>
+* <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/results-models-gemini-2.5-pro-1.0-0308-1207.json">gemini-2.5-pro-1.0 zawierające logi odpowiedzi, metadane tokenów oraz szczegółowe oceny sędziego</a></li>
+* <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/advanced_comparison_report.csv">Zestawienie różnic jakościowych między wariantami modeli w formacie tabelarycznym.</a></li>
+* <li><a href="https://github.com/piotrwalas1/Gemini-Benchmark-Framework/blob/main/benchmark_visuals.png">Zbiorczy panel wykresów (Radar + Bar Chart) prezentujący jakość i wydajność..</a></li>
+
+
 ## 🚀 Jak uruchomić?
 
 1.  Sklonuj repozytorium.
