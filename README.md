@@ -4,7 +4,7 @@
 
 Framework ten stanowi kompletne środowisko do obiektywnej i powtarzalnej oceny modeli językowych (LLM). Pozwala na porównanie wydajności modeli np.(**Gemini 2.0 Flash vs 2.5 Pro**) w oparciu o ustandaryzowany zestaw danych testowych (**Golden Dataset**). 
 
-System został zaprojektowany tak, aby oddzielić dane testowe od logiki oceniającej, co pozwala na łatwą rozbudowę bazy pytań bez ingerencji w kod źródłowy. W najnowszej wersji framework rozszerzono o **pogłębioną analizę kosztową oraz testy latencji**, co pozwala na ocenę modeli pod kątem wdrożeń produkcyjnych.
+System został zaprojektowany tak, aby oddzielić dane testowe od logiki oceniającej, co pozwala na łatwą rozbudowę bazy pytań bez ingerencji w kod źródłowy. W najnowszej wersji framework rozszerzyłem o **pogłębioną analizę kosztową oraz testy latencji**, co pozwala na ocenę modeli pod kątem wdrożeń produkcyjnych.
 
 ## 🏗️ Architektura Systemu i Zasada Działania
 
